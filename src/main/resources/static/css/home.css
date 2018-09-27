@@ -1,0 +1,24 @@
+.App-logo {
+    animation: App-logo-rotate infinite 4s linear;
+    height: 5rem;
+}
+
+.main {
+    background-color: #ffffff !important;
+    color: white;
+    text-align: center;
+    border-radius: 0;
+}
+
+@keyframes App-logo-rotate {
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+}

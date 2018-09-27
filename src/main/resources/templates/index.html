@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head"></head>
+<body>
+
+    <nav th:replace="fragments :: navigation"></nav>
+
+
+    <main role="main">
+
+        <section class="jumbotron text-center main text-dark">
+            <div class="container">
+                <img th:src="@{/images/scales.png}" class="App-logo" alt="logo" />
+                <h1 class="jumbotron-heading" th:text="${title}">Default Title</h1>
+            </div>
+        </section>
+    </main>
+
+
+
+    <section th:replace="fragments :: scripts"></section>
+
+</body>
+</html>
